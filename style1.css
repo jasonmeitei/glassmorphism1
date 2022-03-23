@@ -1,0 +1,32 @@
+body{
+	background-image: linear-gradient(yellowgreen,blueviolet,lawngreen,darkred);
+	background-position: center;
+}
+.glass1{
+padding: 10px;
+
+margin: 40px;
+top: 1%;
+left: 550px;
+position: absolute;
+background: rgba( 255, 255, 25, 0.1);
+box-shadow: 50px 10px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glass1 input[type="button"]
+{
+	border: none;
+	outline: none;
+	padding: 5px;
+	background: linear-gradient(blueviolet,purple);
+	border-radius: 10px;
+	
+}
+.glass1 input[type="button"]:hover
+{
+	cursor: pointer;
+	color: yellow;
+}
